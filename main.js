@@ -56,7 +56,7 @@ function showLastVisit() {
   const visitTime = getCookie("visitTime");
   if (visitTime) {
       console.log("Dernière visite :", visitTime);
-      alert(`Votre dernière visite était le : ${new Date(visitTime).toLocaleString()}`);
+      
   } else {
       console.log("Première visite !");
       
